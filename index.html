@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sayı Tahmin Oyunu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Sayı Tahmin Oyunu</h1>
+      <h2>1-10 arası sayı giriniz..</h2>
+    </div>
+    <div class="input-container">
+      <label for="userGuess">Tahmininiz:</label>
+      <input type="number" id="guess" placeholder="Sayı Giriniz:" />
+      <button onclick="checkGuess()">Kontrol Et</button>
+    </div>
+    <button class="restart" onclick="restartGame()">Sıfırla</button>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
